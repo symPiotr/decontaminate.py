@@ -14,11 +14,11 @@ For example,
 > decontaminate.py Test.count_table Test_blanks.txt 10 0.001 0.3
 
 Parameters:
-**<count_table>**       Tab-delimited table produced by mothur's count.seqs() command. It must include experimental as well as blank libraries.
-**<list_of_blanks>**    Text file with names of blank (negative control) libraries, one name per line.
-**<ThresholdA>**        Value representing the threshold parameter for filtation step (a) above; a unique genotype will be removed UNLESS the maximum relative abundance it attains in at least one experimental library is more than ThresholdA * of the maximum relative abundance it attains in any blank library. Recommended value: 10
-**<ThresholdB>**        Value representing the threshold parameter for filtation step (b) above; a unique genotype will be removed UNLESS the maximum relative abundance it attains in at least one experimental library is more than ThresholdB. Recommended value: 0.001
-**<ThresholdC>**        Value representing the threshold parameter for filtation step (c) above; an experimental library will be removed if it lost more than ThresholdC of the starting number of reads. Recommended value: 0.
+-**<count_table>** Tab-delimited table produced by mothur's count.seqs() command. It must include experimental as well as blank libraries.
+-**<list_of_blanks>** Text file with names of blank (negative control) libraries, one name per line.
+-**<ThresholdA>** Value representing the threshold parameter for filtation step (a) above; a unique genotype will be removed UNLESS the maximum relative abundance it attains in at least one experimental library is more than ThresholdA * of the maximum relative abundance it attains in any blank library. Recommended value: 10
+-**<ThresholdB>** Value representing the threshold parameter for filtation step (b) above; a unique genotype will be removed UNLESS the maximum relative abundance it attains in at least one experimental library is more than ThresholdB. Recommended value: 0.001
+**<ThresholdC>** Value representing the threshold parameter for filtation step (c) above; an experimental library will be removed if it lost more than ThresholdC of the starting number of reads. Recommended value: 0.
 
 
 
