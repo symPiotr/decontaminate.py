@@ -9,7 +9,8 @@ Next (c), the script removes any library which lost more than a threshold propor
 
 Usage:
 > decontaminate.py <count_table> <list_of_blanks> <ThresholdA; recommended value 10> <ThresholdB; recommended value 0.001> <ThresholdC; recommended value 0.3>
-e.g., 
+
+For example, 
 > decontaminate.py Test.count_table Test_blanks.txt 10 0.001 0.3
 
 Parameters:
